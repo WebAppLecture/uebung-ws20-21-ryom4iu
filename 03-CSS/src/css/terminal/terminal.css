@@ -1,0 +1,12 @@
+@import url(./terminal-gamebox.css);
+@import url(./terminal-controls.css);
+@import url(./terminal-accent.css);
+
+:root {
+  --beige: #e8e8b0;
+  --lightbeige: #ffffc3;
+  --darkbeige: #a7a77e;
+  --black: #181818;
+  --lightblack: #303030;
+  --darkblack: #000000;
+}

@@ -1,0 +1,60 @@
+.d-pad {
+  margin-top: 12vh;
+  width: 7vh;
+  height: 7vh;
+  left: 20%;
+  border-radius: 1vh;
+}
+
+.down {
+  transform: rotate(180deg);
+}
+
+.big-button {
+  margin-top: 15vh;
+  left: 70%;
+}
+
+.A {
+  transform: translateY(-8vh);
+}
+
+.controls > *,
+.skin-change > div {
+  text-align: center;
+  background: var(--lightblack);
+  color: white;
+  border-color: var(--black);
+  border-style: solid;
+  box-shadow: 0 0 .6vh 0 var(--black);
+}
+
+.controls > div:active,
+.skin-change > div:active {
+  color: gray;
+  box-shadow: 0 0 1.8vh .4vh var(--black) inset;
+}
+
+.controls > * {
+  font-size: 5vh;
+  border-width: 4px;
+}
+
+.skin-change > * {
+  width: 3vh;
+  height: 3vh;
+  border-width: 4px;
+  line-height: calc(3vh - 8px);
+}
+
+.reset,
+.skin-change > * {
+  border-radius: .5vh;
+}
+
+.reset {
+  font-size: 2vh;
+  height: 4vh;
+  border-width: 3px;
+  line-height: calc(4vh - 6px);
+}

@@ -1,0 +1,16 @@
+@keyframes light {
+  from { background-color: lightgreen; }
+  to { background-color: darkgreen; }
+}
+
+.accent {
+  position: absolute;
+  left: 70%;
+  bottom: 2vh;
+  background: lightgreen;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 8vh;
+  height: 4vh;
+  animation: light 2s alternate ease-in-out infinite;
+}
